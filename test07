@@ -1,0 +1,2 @@
+(defun silly (a b) (plus a b))
+(silly 5 6)

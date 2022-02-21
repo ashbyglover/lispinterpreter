@@ -1,0 +1,9 @@
+(defun notsosilly (a b) 
+            (cond
+               ((eq a 0) (plus b 1))
+               ((eq b 0) (notsosilly (minus a 1) 1))
+               (t (notsosilly (minus a 1) (notsosilly a (minus b 1))))
+             ))
+(notsosilly 2 4)
+(notsosilly 3 5)
+(notsosilly 0 0)
