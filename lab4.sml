@@ -2,7 +2,7 @@
 (*       LISP interpreter                                  *)
 (*                                                         *)
 (*       Ashby Glover                                      *)
-(*       Lab 4 Reference Skeleton, COMP 360                *)
+(*       Lab 4 COMP 360                                    *)
 (*                                                         *)
 (***********************************************************)
 
